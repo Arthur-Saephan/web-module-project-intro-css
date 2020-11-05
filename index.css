@@ -1,0 +1,141 @@
+
+    body { 
+      font-family: 'Roboto Mono', monospace;
+    }
+    #wrapper { 
+      background-color:#fff;
+      width:70%;
+      margin:22px auto;
+      padding:5px;
+    }
+      .cl { 
+        clear:both;
+      }
+    nav {
+      text-align: center;
+      padding:18px 0;
+      margin:22px;
+    }
+    nav ul  { 
+      display:inline-block; 
+      margin:0; 
+      padding:0;
+      list-style: none;
+      width:100%;
+     }
+     nav li {  
+      float:left;
+      width:33%;
+      text-align: center;
+      }
+
+    nav a {
+        color: #fff;
+        padding: 8px 15px;
+        border-radius: 8px;
+        width: 110px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 1.1em;
+        font-family: sans-serif;
+        display:block;
+        text-decoration: none;
+    }
+      nav a:hover { 
+        color:#000;
+      }
+      .nav1 { 
+        background-color: #ff764e;
+        float: left;
+      }
+      .nav2 { 
+        background-color: #5ed3eb;
+      }
+      .nav3 { 
+        background-color: #ffcd69;
+        float: right;
+        margin: 0 auto;
+      }
+    header { 
+      padding:12px 50px;
+    }
+    h1{
+      text-align: center;
+      font-family: 'Chelsea Market', cursive;
+    }
+
+      header .jfresh { 
+        margin:22px 0;
+        text-align: center;
+        font-size: 1.8em;
+		vertical-align: middle;}
+	.jfresh img {
+			width:75%;
+			height: auto;
+			border-radius: 50%;
+		}
+
+
+        .jfresh h1 { 
+          font-size:2.5em;
+          margin:0 0 0.7em;
+        }
+        .jfresh .left { 
+          float:left;
+          margin-right:55px;
+        }
+        .jfresh .narrow { 
+          width:60%;
+          display: block;
+          margin:0 auto;
+          font-size:0.9em;
+        }
+
+      header .jfresh {   
+        width:25%;
+        display: inline-block;
+      }
+      header .h_right { 
+        width:55%;
+        display: inline-block;
+        text-align: center;
+        margin: 0 0 0 110px;
+      }
+    .info { 
+      background-color:#ddb9a3;
+      padding:8px 20px;
+      margin:32px 12px; 
+    }
+      .info p {
+        color:#fff;
+        font-size: 1.4em;
+        line-height:1.2em;
+        text-align: center;
+      }
+
+    .content { 
+      text-align: center;
+      width:40%;
+      margin:22px auto 48px;
+    }
+      .fire {
+        height:150px;
+      }
+      .carimg {
+        height: 150px;
+      } 
+
+    footer { 
+      background-color: #f9e7dd;
+      padding: 0 0 14px;
+     }
+     .wrapper {
+         margin: 0 auto;
+         width: 80%;
+
+     }
+      .footer { 
+        background: url('assets/footer_img.jpg') no-repeat top -50px center;  
+        max-width: 100%;
+        height: 300px;
+      }
