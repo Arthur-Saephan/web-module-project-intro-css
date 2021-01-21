@@ -1,0 +1,237 @@
+<!-- Markup the content below with tags and attributes such that it can be styled in CSS-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Link your CSS stylesheet -->
+    <style>
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+    body { 
+      background-color:#efefef;
+      font-family: 'Roboto', sans-serif; /* me too lul */
+    }
+    #wrapper { 
+      background-color:#fff;
+      width:70%;
+      margin:22px auto;
+      padding:5px;
+    }
+      .cl { 
+        clear:both;
+      }
+    nav {
+      text-align: center;
+      padding:18px 0;
+      margin:22px;
+    }
+    nav ul  { 
+      display:inline-block; 
+      margin:0; 
+      padding:0;
+      list-style: none;
+      width:100%;
+     }
+     nav li {  
+      float:left;
+      width:33%;
+      text-align: center;
+      }
+
+    nav a {
+        color: #fff;
+        padding: 8px 15px;
+        border-radius: 8px;
+        width: 110px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 1.1em;
+        font-family: sans-serif;
+        display:block;
+        text-decoration: none;
+    }
+      nav a:hover { 
+        color:#000;
+      }
+      .nav1 { 
+        background-color: #ff764e;
+        float: left;
+      }
+      .nav2 { 
+        background-color: #5ed3eb;
+      }
+      .nav3 { 
+        background-color: #ffcd69;
+        float: right;
+        margin: 0 auto;
+      }
+    header { 
+      padding:12px 50px;
+    }
+
+      header #jfresh { 
+        margin:22px 0;
+        text-align: center;
+        font-size: 1.8em;
+		vertical-align: middle;}
+		img {
+			width:25%;
+			height: auto;
+			border-radius: 50%;
+		}
+
+
+        #jfresh h1 { 
+          font-size:2.5em;
+          margin:0 0 0.7em;
+        }
+        #jfresh .left { 
+          float:left;
+          margin-right:55px;
+        }
+        #jfresh .narrow { 
+          width:60%;
+          display: block;
+          margin:0 auto;
+          font-size:0.9em;
+        }
+
+      header .h_left { 
+        width:33%;
+        float:left;
+      }
+      header .h_right { 
+        width:67%;
+        float:left;
+      }
+    .info { 
+      background-color:#ddb9a3;
+      padding:8px 20px;
+      margin:32px 12px; /* if you like my css don't forget to LIKE and SHARE */
+    }
+      .info p {
+        color:#fff;
+        font-size: 1.4em;
+        line-height:1.2em;
+        text-align: center;
+      }
+
+    .content { 
+      text-align: center;
+      width:40%;
+      margin:22px auto 48px;
+    }
+      .fire {
+        height:150px;
+      }
+      .carimg {
+        height: 150px;
+      } 
+
+    footer { 
+      background-color: #f9e7dd;
+      padding: 0 0 14px;
+     }
+      img.footer { 
+        max-width: 100%;
+      }
+ </style>
+</head>
+<body>
+ <div id="wrapper"> 
+<header>  
+ <nav>
+      <ul> 
+       <li><a class="nav1" href="#">Plan your Visit</a></li>
+      <li><a class="nav2"href="#">Learn about the Park</a></li>
+      <li><a class="nav3"href="#">Get<br />Involved</a></li>
+      </ul>
+ </nav>  
+  
+  <div class="jfresh">
+      <img src="assets/header_img.jpg" class="left">
+   </div>
+   <div class="h_right">
+    <h1>Yosemite Park Guide</h1>
+    <p><a href="#">Come explore</a>  California’s beautiful wilderness.</a></p>
+  <p>Always open. Reservations are not available or required to enter the park.</p>
+    </div>
+  </div>    
+   </header>
+  <div class="cl"></div>
+<div class="info">
+  <p>Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.</p>
+     
+ <p>First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.</p>
+  </div>
+    
+ <div class="content">
+   <div class="item"> 
+      <img class="fire" src="https://image.flaticon.com/icons/svg/2979/2979348.svg">
+      <p>Fire is a natural and essential part of Yosemite. We manage fire carefully and  study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite.<strong> Check for current fire restrictions.</strong>
+</p>
+</div>     
+      <div class="item">
+      <img class="carimg"  src="https://image.flaticon.com/icons/svg/820/820374.svg">
+      <p>We strongly recommend that you make reservations for lodging, camping, and  backpacking. You can pay the <strong>park entrance fee</strong> upon arrival (there's no need to  pay it in advance).</p>
+   </div>
+  </div> 
+<div class="cl"></div>
+  <footer>
+<img class="footer" src="assets/footer_img.jpg">
+  <nav> 
+    <ul>
+    <li><a class="nav1"href="#">Plan your Visit</a></li>
+    <li><a class="nav2"href="#">Learn about the Park</a></li>
+    <li><a class="nav3"href="#">Get<br />Involved</a></li>
+    </nav>
+</footer>  
+ </div> 
+</body>
+</html>
